@@ -2,7 +2,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Setup Gemini
-const genAI = new GoogleGenerativeAI("AIzaSyD10TTq8aKL7XDyItK-k802uf1c4xaHGn0"); // Replace this with your actual Gemini API key
+const genAI = new GoogleGenerativeAI("API KEY"); // Replace this with your actual Gemini API key
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 export function convertToCSV(data) {
