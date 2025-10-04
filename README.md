@@ -20,19 +20,19 @@ It extracts transactions from bank statements, categorizes them, visualizes spen
 
 4. 🧠Transaction Classification:- 
 
-* 💸Debits → Classified into categories (Food, Transport, Shopping, etc.) using rule-based + ML/NLP.
+* Debits → Classified into categories (Food, Transport, Shopping, etc.) using rule-based + ML/NLP.
 
-* 💰Credits → Rule-based classification (Scholarship, Interest, Income).
+* Credits → Rule-based classification (Scholarship, Interest, Income).
 
 5. 🗄️Database Storage – Structured data stored in MySQL.
 
 6. 📊Visualization – React frontend displays charts:-
 
-* 🥧Pie chart → category spend breakdown.
+* Pie chart → category spend breakdown.
 
-* 📊Bar chart → month-wise debit vs credit.
+* Bar chart → month-wise debit vs credit.
 
-* 📈Line chart → balance trend.
+* Line chart → balance trend.
 
 7. 🤖AI Insights – LangChain + Gemini LLM answer finance queries in plain English.
 
@@ -57,11 +57,11 @@ It extracts transactions from bank statements, categorizes them, visualizes spen
 --------------------------------------------------------------------------------------------------------
 # 🎯 Features
 
-*✅ Upload .xls bank statements
-*✅ Auto-categorize debit & credit transactions
-*✅ View spending trends with interactive charts
-*✅ Ask finance questions via chatbot (LLM + LangChain)
-*✅ Get personalized financial advice
+* Upload .xls bank statements
+* Auto-categorize debit & credit transactions
+* View spending trends with interactive charts
+* Ask finance questions via chatbot (LLM + LangChain)
+* Get personalized financial advice
 
 
 
