@@ -9,4 +9,25 @@ This lack of financial awareness leads to poor money management habit.
 FinanceFlow is a smart personal finance tracker designed for college students to help them manage pocket money effectively.
 It extracts transactions from bank statements, categorizes them, visualizes spending patterns, and even provides AI-powered financial insights through a chatbot.
 
-----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+# 🚀 Project Workflow
+
+1. Upload Bank Statement – Student uploads .xls bank statement via React frontend.
+
+2. Backend Parsing – Django backend parses the file (pandas + xlrd/openpyxl).
+
+3. Data Cleaning – Extract and normalize fields (Date, Description, Debit, Credit, Balance).
+
+4. Transaction Classification
+
+* Debits → Classified into categories (Food, Transport, Shopping, etc.) using rule-based + ML/NLP.
+
+* Credits → Rule-based classification (Scholarship, Interest, Income).
+
+5. Database Storage – Structured data stored in MySQL.
+
+6. Visualization – React frontend displays charts:
+
+* Pie chart → category spend breakdown.* Bar chart → month-wise debit vs credit.
+
+Line chart → balance transwer finance queries in plain English.
