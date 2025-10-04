@@ -38,7 +38,7 @@ It extracts transactions from bank statements, categorizes them, visualizes spen
 
 --------------------------------------------------------------------------------------------------------
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 * 🎨Frontend: React.js (Charts: Chart.js / Recharts / D3.js)
 
@@ -55,11 +55,13 @@ It extracts transactions from bank statements, categorizes them, visualizes spen
 * Languages: 🐍Python, ⚛️JavaScript
 
 --------------------------------------------------------------------------------------------------------
+# 🎯 Features
 
-
-
-
-
+*✅ Upload .xls bank statements
+*✅ Auto-categorize debit & credit transactions
+*✅ View spending trends with interactive charts
+*✅ Ask finance questions via chatbot (LLM + LangChain)
+*✅ Get personalized financial advice
 
 
 
