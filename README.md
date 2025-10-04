@@ -12,22 +12,59 @@ It extracts transactions from bank statements, categorizes them, visualizes spen
 -------------------------------------------------------------------------------------------------
 # 🚀 Project Workflow
 
-1. Upload Bank Statement – Student uploads .xls bank statement via React frontend.
+1. 📂Upload Bank Statement – Student uploads .xls bank statement via React frontend.
 
-2. Backend Parsing – Django backend parses the file (pandas + xlrd/openpyxl).
+2. ⚙️Backend Parsing – Django backend parses the file (pandas + xlrd/openpyxl).
 
-3. Data Cleaning – Extract and normalize fields (Date, Description, Debit, Credit, Balance).
+3. 🧹Data Cleaning – Extract and normalize fields (Date, Description, Debit, Credit, Balance).
 
-4. Transaction Classification
+4. 🧠Transaction Classification:- 
 
-* Debits → Classified into categories (Food, Transport, Shopping, etc.) using rule-based + ML/NLP.
+* 💸Debits → Classified into categories (Food, Transport, Shopping, etc.) using rule-based + ML/NLP.
 
-* Credits → Rule-based classification (Scholarship, Interest, Income).
+* 💰Credits → Rule-based classification (Scholarship, Interest, Income).
 
-5. Database Storage – Structured data stored in MySQL.
+5. 🗄️Database Storage – Structured data stored in MySQL.
 
-6. Visualization – React frontend displays charts:
+6. 📊Visualization – React frontend displays charts:-
 
-* Pie chart → category spend breakdown.* Bar chart → month-wise debit vs credit.
+* 🥧Pie chart → category spend breakdown.
 
-Line chart → balance transwer finance queries in plain English.
+* 📊Bar chart → month-wise debit vs credit.
+
+* 📈Line chart → balance trend.
+
+7. 🤖AI Insights – LangChain + Gemini LLM answer finance queries in plain English.
+
+--------------------------------------------------------------------------------------------------------
+
+#🛠️ Tech Stack
+
+* 🎨Frontend: React.js (Charts: Chart.js / Recharts / D3.js)
+
+* ⚡Backend: Django REST API
+
+* 🗄️Database: MySQL
+
+* 🤖AI/ML:-
+
+-> 📝NLP text classification for transactions
+
+-> 💬LLM chatbot using LangChain + Gemini Flash 2.0 API
+
+* Languages: 🐍Python, ⚛️JavaScript
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
